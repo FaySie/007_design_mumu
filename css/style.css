@@ -1,0 +1,83 @@
+/**************************************************
+*
+*   web color
+*
+*   white       : #fff
+*   light blue  : #3B5998
+*   dark blue   : #002A41
+*   light yellow: #FFF2BD
+*   green		: #335904
+*   red			: #BB7778
+*   black       : #323232
+*
+**************************************************/
+
+/*
+basic
+*/
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 33px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+p,
+h4 {
+	font-size: 20px;
+}
+
+/*******************************************************************
+	menubar
+	選單列
+********************************************************************/
+
+.menu {
+	width: 100%;
+	height: 12%;
+	background-color: rgba(255,255,255,.3);
+}
+
+.collapse {
+	padding: 0;
+}
+
+.logo a {
+	height: inherit;
+	padding: 0;
+}
+
+.menu img {
+	width: 18%;
+}
+
+.menu ul {
+	float: right;
+	margin-top: -4%;
+	height: 28px;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.menu ul li {
+	display: inline-block;
+	height: inherit;
+	border-left: 1.5px #323232 solid;
+}
+
+.menu ul li a {
+	height: inherit;
+	padding: 0;
+}
+
+.menu ul li a h3 {
+	margin: 0;
+	padding: 0 10px;
+}
+

@@ -13,26 +13,51 @@
 	    	header
 	    	頁首選單列
 		***************************************************** -->
-		<header>
-			<a href="#section1">
-				<img src="img/logo.png">
-			</a>
-			<a href="#section2">
-				<h3>About us</h3>
-			</a>
-			<a href="#section3">
-				<h3>About chef</h3>
-			</a>
-			<a href="#section4">
-				<h3>Menu</h3>
-			</a>
-			<a href="#section5">
-				<h3>Gallery</h3>
-			</a>
-			<a href="#section6">
-				<h3>Contact us</h3>
-			</a>
-		</header>
+		<div class="nav navbar-default menu">
+	        <div class="container">
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span> 
+	                </button>
+	            </div>
+	            <div class="collapse navbar-collapse navHeaderCollapse">
+            		 <div class="logo">
+            		    <a class="navbar-brand" href="#section1">
+							<img class="img-responsive" src="img/logo.png">
+						</a>
+		            </div>
+	                <ul class="nav navbar-nav">
+						<li>
+							<a href="#section2">
+								<h3>About us</h3>
+							</a>
+						</li>	
+						<li>
+							<a href="#section3">
+								<h3>About chef</h3>
+							</a>
+						</li>	
+						<li>
+							<a href="#section4">
+								<h3>Menu</h3>
+							</a>
+						</li>	
+						<li>
+							<a href="#section5">
+								<h3>Gallery</h3>
+							</a>
+						</li>	
+						<li>
+							<a href="#section6">
+								<h3>Contact us</h3>
+							</a>
+						</li>	
+	                </ul>
+	            </div>
+	        </div>
+    	</div>
 
  		<!-- *****************************************************
 	    	section1
@@ -305,6 +330,7 @@
 	    	script
 		***************************************************** -->
 		
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 	</body>
 </html>
