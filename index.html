@@ -4,31 +4,42 @@
 		<title>Mumu Kitchen</title>
 		<meta charset="utf-8">
 		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<link href="css/bootstrap.css" rel="stylesheet" charset="utf-8" />
+		<link href="css/style.css" rel="stylesheet" charset="utf-8" />
 	</head>
 
 	<body>
+	 	<!-- *****************************************************
+	    	header
+	    	頁首選單列
+		***************************************************** -->
 		<header>
-			<a href="#index">
+			<a href="#section1">
 				<img src="img/logo.png">
 			</a>
-			<a href="#about_us">
+			<a href="#section2">
 				<h3>About us</h3>
 			</a>
-			<a href="#about_chef">
+			<a href="#section3">
 				<h3>About chef</h3>
 			</a>
-			<a href="#menu">
+			<a href="#section4">
 				<h3>Menu</h3>
 			</a>
-			<a href="#gallery">
+			<a href="#section5">
 				<h3>Gallery</h3>
 			</a>
-			<a href="#contact_us">
+			<a href="#section6">
 				<h3>Contact us</h3>
 			</a>
 		</header>
 
-		<div class="index" id="index">
+ 		<!-- *****************************************************
+	    	section1
+	    	主視覺首頁home
+		***************************************************** -->
+
+		<div id="section1">
 			<div>
 				<img src="img/logo.png">			
 			</div>
@@ -39,7 +50,12 @@
 			</div>
 		</div>
 
-		<div class="about_us" id="about_us">
+ 		<!-- *****************************************************
+	    	section2
+	    	關於我們about us
+		***************************************************** -->
+
+		<div id="section2">
 			<h1>About us</h1>
 			<p>
 				樂沐Le Moût，一個不斷朝完美靠近的法式餐廳，不僅以法式細膩，表現食材最美好的那一刻，更憑著對料理的執著及不斷創新的精神，屢獲知名獎項肯定。
@@ -48,7 +64,12 @@
 			</p>
 		</div>
 
-		<div class="about_chef" id="about_chef">
+		<!-- *****************************************************
+	    	section3
+	    	關於主廚about chef
+		***************************************************** -->
+
+		<div id="section3">
 			<div>
 				<h1>About chef</h1>
 				<h4>
@@ -64,10 +85,21 @@
 			</div>
 		</div>
 
-		<div class="menu" id="menu">
+ 		<!-- *****************************************************
+	    	section4
+	    	菜單menu
+		***************************************************** -->
+
+		<div id="section4">
 			<h1>Menu</h1>
-			<div class="appetizer">
-				<h3>APPETIZER</h3>
+
+			<!-- *****************************************************
+	    		div1
+	    		前菜
+			***************************************************** -->
+
+			<div>
+				<h3>Appetizer</h3>
 				<div>
 					<h4>Iberico Ham</h4>
 					<h4>24-month aged. strawberry. arugula</h4>
@@ -100,8 +132,14 @@
 					<img src="img/04.jpg">
 				</div>
 			</div>
-			<div class="steak">
-				<h3>STEAK</h3>
+
+			<!-- *****************************************************
+	    		div2
+	    		排餐
+			***************************************************** -->
+
+			<div>
+				<h3>Steak</h3>
 				<div>
 					<h4>USDA Prime “Ribeye Filet” Steak(8oz)</h4>
 					<h4>美國頂級“肋眼菲力＂牛排</h4>
@@ -127,12 +165,18 @@
 					<h4>美國特選老饕牛排</h4>
 					<h4>NT$2,400</h4>
 				</div>
-				<div class="steak_img">
+				<div>
 					<img src="img/05.jpg">
 				</div>
 			</div>
-			<div class="main">
-				<h3>MAIN</h3>
+
+			<!-- *****************************************************
+	    		div3
+	    		主菜
+			***************************************************** -->
+
+			<div>
+				<h3>Main</h3>
 				<div>
 					<h4>Truffle Mushroom Risotto</h4>
 					<h4>松露洋菇燉飯</h4>
@@ -158,12 +202,18 @@
 					<h4>美國緬因州溫煮龍蝦</h4>
 					<h4>NT$2,250</h4>
 				</div>
-				<div class="main_img">
+				<div>
 					<img src="img/06.jpg">
 				</div>
 			</div>
 		</div>
-		<div class="gallery" id="gallery">
+
+		<!-- *****************************************************
+	    	section5
+	    	畫廊gallery
+		***************************************************** -->
+
+		<div id="section5">
 			<h1>Galley</h1>	
 			<div>
 				<img src="img/07.jpg">
@@ -199,16 +249,22 @@
 				<img src="img/17.jpg">
 			</div>		
 		</div>
-		<div class="contact_us" id="contact_us">
+
+		<!-- *****************************************************
+    		section6
+    		聯絡我們contact_us
+		***************************************************** -->
+
+		<div id="section6">
 			<h1>Contact Us</h1>	
 			<div>
 				<div>
 					<div>
 						<h3>visit our Facebook</h3>
-						<img src="img/FB.png">
+						<img src="img/fb.png">
 					</div>
 					<div>
-						<img src="img/IG.png">
+						<img src="img/ig.png">
 						<h3>visit our Instagram</h3>
 					</div>
 				</div>
@@ -235,8 +291,20 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- *****************************************************
+	    	footer
+	    	頁尾版權宣告
+		***************************************************** -->
+		
 		<footer>
 			<h4>© 2017 Mumu Kitchen    by Fay Sie & Sylvie Chen</h4>	
 		</footer>
+		
+		<!-- *****************************************************
+	    	script
+		***************************************************** -->
+		
+		<script src="js/bootstrap.js"></script>
 	</body>
 </html>
