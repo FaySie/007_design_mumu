@@ -46,7 +46,6 @@ p {
 	border-top: 2px #002A41 solid;
 	border-bottom: 2px #002A41 solid;
 	height: 90px;
-	float: right;
 }
 
 /*每頁標題h1共用樣式*/
@@ -167,6 +166,7 @@ p {
 }
 
 .section2_title {
+	float: right;
 	position: relative;
     top: 50vh;
     transform: translate(0,-50%);
@@ -175,10 +175,46 @@ p {
 .section2_text {
 	text-align: right;
 	position: relative;
-    top: 54vh;
+    top: 50vh;
     padding-right: 0;
 }
 
 .section2_text p {
+	padding-right: 0;
+}
+
+/*******************************************************************
+	section3
+	關於主廚
+********************************************************************/
+
+#section3 {
+	background-color: #FFF2BD;
+	width: 100%;
+	height: 520px;
+}
+
+#section3 .container {
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.section3_info {
+	text-align: center;
+}
+
+.section3_title {
+	margin-top: 15px;
+	margin-bottom: 70px;
+}
+
+.section3_info h4 {
+	line-height: 1.5;
+}
+
+.section3_img {
 	padding-right: 0;
 }
