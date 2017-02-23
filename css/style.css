@@ -195,8 +195,6 @@ p {
 }
 
 #section3 .container {
-	padding-left: 0;
-	padding-right: 0;
 	position: relative;
     top: 50%;
     transform: translate(0,-50%);
@@ -253,4 +251,27 @@ p {
 .menu_img {
 	margin-top: 56px;
 	padding-bottom: 70px;
+}
+
+/*******************************************************************
+	section5
+	菜單Menu
+********************************************************************/
+
+#section5 {
+	width: 100%;
+	height: 250%;
+	text-align: center;
+	background-color: #FFF2BD;
+}
+
+.section5_title {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.photo {
+	background-color: yellow;
+	padding-left: 0;
+	padding-right: 0;
 }
