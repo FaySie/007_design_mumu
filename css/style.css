@@ -26,6 +26,7 @@ h2 {
 
 h3 {
 	font-size: 28px;
+	color: #323232;
 }
 
 p,
@@ -87,9 +88,13 @@ h4 {
 	padding: 0;
 }
 
-.menu ul li a h3 {
+.menu ul li h3 {
 	margin: 0;
 	padding: 0 10px;
+}
+
+.menu ul li h3:hover {
+	color: #335904;
 }
 
 /*******************************************************************
