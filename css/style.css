@@ -224,7 +224,6 @@ p {
 
 #section4 {
 	width: 100%;
-	height: 184%;
 	text-align: center;
 }
 
@@ -260,9 +259,12 @@ p {
 
 #section5 {
 	width: 100%;
-	height: 250%;
 	text-align: center;
 	background-color: #FFF2BD;
+}
+
+#section5 .container {
+	padding-bottom: 70px;
 }
 
 .section5_title {
@@ -271,7 +273,77 @@ p {
 }
 
 .photo {
-	background-color: yellow;
 	padding-left: 0;
 	padding-right: 0;
+}
+
+/*******************************************************************
+	section6
+	菜單Menu
+********************************************************************/
+
+#section6 {
+	width: 100%;
+	text-align: center;
+	background-color: #FFF;
+}
+
+.section6_title {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.link_fb {
+	background-color: #002A41;
+	padding-right: 0;
+	height: 25%;
+}
+
+.link_fb:hover {
+	background-color: #3B5998;
+}
+
+.link_ig {
+	background-color: #002A41;
+	height: 25%;
+}
+
+.link_ig:hover {
+	background-color: #BB7778;
+}
+
+.link_fb_area,
+.link_ig_area {
+	display: inline-block;
+}
+
+.link_fb_area {
+	text-align: right;
+	width: 100%;
+	padding-right: 15px;
+	position: relative;
+    top: 50%;
+}
+
+.link_ig_area {
+	text-align: left;
+	width: 100%;
+	padding-left: 15px;
+	position: relative;
+    top: 50%;
+}
+
+#section6 h3 {
+	color: #fff;
+	display: inline;
+}
+
+.link_icon {
+	width: 65px;
+	height: 65px;
+	display: inherit;
+}
+
+.link_ig_area h3 {
+	padding-left: 20px;
 }
