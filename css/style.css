@@ -16,6 +16,14 @@
 basic
 */
 
+h1,
+h2,
+h3,
+h4,
+p {
+	font-family: 'Bellefair', serif;
+}
+
 h1 {
 	font-size: 60px;
 	color: #002A41;
